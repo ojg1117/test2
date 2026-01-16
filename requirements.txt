@@ -1,5 +1,5 @@
 streamlit>=1.32.0
-langchain>=0.1.20
+langchain-core>=0.1.42
 langchain-google-genai>=1.0.5
 langchain-community>=0.0.38
 langchain-text-splitters>=0.0.1
