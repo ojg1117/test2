@@ -14,7 +14,7 @@ import os
 # 페이지 설정
 # =====================
 st.set_page_config(
-    page_title="PDF RAG 챗봇",
+    page_title="오잭형이 만든 PDF RAG 챗봇",
     page_icon="📚",
     layout="wide"
 )
@@ -42,7 +42,7 @@ st.markdown("""
 # 헤더
 # =====================
 st.markdown('<div class="main-header">', unsafe_allow_html=True)
-st.title("📚 PDF RAG 챗봇")
+st.title("📚 오잭형이 만든 PDF RAG 챗봇")
 st.caption("Powered by Gemini 2.5 Flash + LangChain LCEL")
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -155,8 +155,8 @@ with st.sidebar:
     )
     
     use_default = st.checkbox(
-        "기본 test.pdf 사용",
-        help="저장소에 있는 test.pdf 파일을 사용합니다."
+        "깃허브에 업로도된 test.pdf 사용",
+        help="깃허브 저장소에 있는 test.pdf 파일을 사용합니다."
     )
     
     process_btn = st.button("🚀 PDF 처리 시작", type="primary", use_container_width=True)
